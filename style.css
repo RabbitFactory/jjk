@@ -1,0 +1,62 @@
+.slot {
+  border: 2px solid rgb(155, 155, 155);
+  padding: 10px;
+  border-radius: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.slot img {
+  width: 100%;
+}
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #a094fc;
+    border: 2px solid #1300a3;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(108, 92, 231, 0.2);
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #393944;
+    border-color: #312e42;
+  }
+  h3
+  {
+    color: rgb(132, 194, 104);
+    font-size: 2rem;
+    padding: 10px;
+  }
+  p 
+  {
+    font-size: 1.5rem;
+    color: rgb(226, 226, 226);
+    padding: 10px;
+  }
+  body
+  {
+    background-color: rgb(31, 31, 31);
+  }
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
